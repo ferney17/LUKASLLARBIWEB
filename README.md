@@ -7,7 +7,7 @@ Conectada con base de datos MySql
 ENTIDAD: CONTACTOS
 Almacenamos estos datos:
 -NOMBRE
--TELÈFON
+-TELÈFONO
 -FECHA DE NACIMIENTO
 -DIRECCIÒN
 -CORREO ELECTRÒNICO
