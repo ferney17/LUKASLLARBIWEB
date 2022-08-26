@@ -8,11 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     </head>
     <body class="antialiased">
-      <header>
-        PRUEBA PARA BRM 
-        AUTOR: WILLIAM ANDRES RÀTIVA BAQUERO
-        CC 1233895437
-      </header>
+     
       <a href="{{url('contactos')}}" class="list-group-item">Consultar Todos los Usuarios</a>
       <a href="{{url('contactos/create')}}" class="list-group-item">Crear Nuevo Usuario</a>
 

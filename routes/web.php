@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactosController;
+use App\Http\Controllers\MesasController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +13,9 @@ use App\Http\Controllers\ContactosController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/', function(){
+return view('index');
+});
 Route::resource('contactos',ContactosController::class);
+Route::resource('mesas',MesasController::class);
 
