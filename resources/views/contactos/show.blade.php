@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
 </head>
 <body>
+<a href="javascript:history.back()"> Volver Atrás</a>
 <div class="container">
     <div class="row">
         <div class="col-md-3">

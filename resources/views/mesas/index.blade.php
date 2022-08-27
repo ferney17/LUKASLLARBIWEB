@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     </head>
     <body class="antialiased">
-    
+    <a href="javascript:history.back()"> Volver Atrás</a>
 
       @foreach ($mesas as $mesa)
           <table class="table table-striped">
