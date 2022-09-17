@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
     </head>
     <body class="antialiased">
-     
+    <a href="javascript:history.back()"> Volver Atrás</a>
       <a href="{{url('contactos')}}" class="list-group-item">Consultar Todos los Usuarios</a>
       <a href="{{url('contactos/create')}}" class="list-group-item">Crear Nuevo Usuario</a>
 
