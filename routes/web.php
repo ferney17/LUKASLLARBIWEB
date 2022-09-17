@@ -19,3 +19,13 @@ return view('index');
 Route::resource('contactos',ContactosController::class);
 Route::resource('mesas',MesasController::class);
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
