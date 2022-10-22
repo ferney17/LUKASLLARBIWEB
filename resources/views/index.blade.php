@@ -31,11 +31,19 @@
   </div>
 </nav>
 <section>
-<div class="row">
-    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="" srcset=""></div>
-    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="" srcset=""></div>
-    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="" srcset=""></div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/01/29/01/04/billiards-1167221_960_720.jpg" alt="Third slide">
+    </div>
   </div>
+</div>
 </section>
 <section>
     <hr>
