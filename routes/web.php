@@ -16,8 +16,9 @@ use App\Http\Controllers\MesasController;
 Route::get('/', function(){
 return view('index');
 });
-Route::resource('contactos',ContactosController::class);
-Route::resource('mesas',MesasController::class);
+Route::resource('contactos',ContactosController::class)->middleware('auth');
+Route::resource('mesas',MesasController::class)->middleware('auth');
+
 
 
 Route::middleware([
