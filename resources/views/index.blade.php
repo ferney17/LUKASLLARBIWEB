@@ -58,7 +58,7 @@
       <nav class="navbar fixed-bottom bg-dark">
         <div class="container-fluid" style="color: white !important ;">
        <h4 style="text-align: rigth;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUKAS YARBI TODOS LOS DERECHOS RESERVADOS </h4>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LUKAS LLARBI TODOS LOS DERECHOS RESERVADOS </h4>
         </div>
       </nav>
     </div>
